@@ -961,3 +961,8 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+apt install git -y
+git clone https://github.com/Euronymou5/Doxxer-Toolkit
+cd Doxxer-Toolkit
+bash install.sh
+python3 dox.py
